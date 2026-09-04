@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">答题助手</string>
+    <string name="fore_service">❤点我返回❤</string>
+    <string name="base_ser_desc">答题辅助服务，用于识别屏幕内容（内部版本）</string>
+    <string name="pop_joker_title">请填写账号密码</string>
+    <string name="pop_joker_desc">账号密码用/分隔\n不同账号用英文逗号\',\'分隔</string>
+    <string name="pop_joker_cancel_text">取消</string>
+    <string name="pop_joker_confirm_text">确定</string>
+
+
+    <string name="fang_da">{fang-da}</string>
+    <string name="yin_cang">{yin-cang}</string>
+    <string name="da_an">{da-an}</string>
+    <string name="close">{close}</string>
+    <string name="function_center">功能中心</string>
+    <string name="select_feature">选择一个功能开始使用</string>
+    <string name="bank_info_format">%1$d 道题 · %2$s</string>
+    <string name="question_number_format">%1$d. %2$s</string>
+    <string name="answer_format">答案：%1$s</string>
+
+    <!-- 使用教程引导 -->
+    <string name="guide_title">使用教程</string>
+    <string name="guide_subtitle">跟着下面 5 步，快速上手</string>
+    <string name="guide_step1_title">授予权限</string>
+    <string name="guide_step1_desc">授予「悬浮窗」「通知」权限，并在系统设置开启无障碍服务「❤ 答题助手」</string>
+    <string name="guide_step2_title">导入题库</string>
+    <string name="guide_step2_desc">点「选择文件」导入 xls / xlsx / csv 题库，第一行为表头，列依次为：题目、答案、选项A~F</string>
+    <string name="guide_step3_title">选择题库</string>
+    <string name="guide_step3_desc">点「自动扫描」，勾选本次要匹配的题库（默认全选），匹配更准更快</string>
+    <string name="guide_step4_title">开始答题</string>
+    <string name="guide_step4_desc">打开目标答题页，悬浮窗实时显示匹配到的题目与参考答案，可拖动、缩放、隐藏</string>
+    <string name="guide_step5_title">管理题库</string>
+    <string name="guide_step5_desc">「题库管理」可查看题目详情，重命名、删除题库或删除单题</string>
+    <string name="guide_confirm">开始使用</string>
+
+    <!-- 步骤数字 -->
+    <string name="guide_step1_number">1</string>
+    <string name="guide_step2_number">2</string>
+    <string name="guide_step3_number">3</string>
+    <string name="guide_step4_number">4</string>
+    <string name="guide_step5_number">5</string>
+
+    <!-- 题库管理 -->
+    <string name="empty_bank_list">暂无题库，请先导入</string>
+    <string name="empty_question_list">该题库暂无题目</string>
+</resources>

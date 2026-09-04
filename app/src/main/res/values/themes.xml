@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartQuiz" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryVariant">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorSecondaryVariant">@color/brand_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color - same as ActionBar. -->
+        <item name="android:statusBarColor">@color/brand_primary</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">@color/brand_primary</item>
+        <!-- Status bar icons should be white (light icons on dark background). -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Window background - brand color for status bar area. -->
+        <item name="android:windowBackground">@color/brand_primary</item>
+        <!-- ActionBar style. -->
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <!-- Custom ActionBar style. -->
+    <style name="CustomActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>
+        <item name="titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- ActionBar title style. -->
+    <style name="ActionBarTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

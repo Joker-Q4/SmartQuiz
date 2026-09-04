@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 旧版默认色（保留以兼容历史引用） -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 科技蓝主题配色 -->
+    <color name="brand_primary">#1E88E5</color>        <!-- 主色：明亮科技蓝 -->
+    <color name="brand_primary_dark">#1565C0</color>   <!-- 深蓝：状态栏/强调 -->
+    <color name="brand_primary_light">#E3F2FD</color>  <!-- 极浅蓝：头部/点缀背景 -->
+    <color name="brand_accent">#00ACC1</color>         <!-- 青色点缀 -->
+    <color name="brand_accent_dark">#00838F</color>    <!-- 深青：答案/强调文字 -->
+
+    <color name="screen_bg">#F4F7FB</color>            <!-- 页面浅灰蓝背景 -->
+    <color name="card_bg">#FFFFFF</color>             <!-- 卡片背景 -->
+    <color name="text_main">#1A2233</color>           <!-- 主文字 -->
+    <color name="text_sub">#7A869A</color>            <!-- 次文字 -->
+    <color name="divider">#E3E8F0</color>            <!-- 分割线 -->
+
+    <!-- 悬浮窗 -->
+    <color name="float_bg_start">#E61E3A5F</color>
+    <color name="float_bg_end">#E612233F</color>
+    <color name="float_stroke">#4DFFFFFF</color>
+</resources>
